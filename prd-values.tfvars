@@ -1,0 +1,10 @@
+region = "us-west-2"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.11.0/24", "10.0.12.0/24"]
+cluster_name = "main-eks-cluster"
+node_group_name = "main-node-group"
+node_instance_type = "t3.medium"
+node_desired_capacity = 2
+node_max_capacity = 6
+node_min_capacity = 1
